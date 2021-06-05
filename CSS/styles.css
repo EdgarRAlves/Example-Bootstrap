@@ -1,0 +1,50 @@
+:root {
+    --lighgrey: #7c8380;
+    --darkgrey: #3e4240;
+}
+
+
+.header {
+    background-color: var(--lighgrey);
+    color: white;
+    font-size: 0.8em;
+}
+
+.carousel-item img {
+    height: 30vh;
+    object-fit: cover;
+    /* opacity: 0.6; */
+}
+
+.carousel-item {
+    opacity: 0.6;
+}
+
+.info {
+    background-color: var(--darkgrey);
+}
+
+.figure-caption {
+    border-radius: 5%;
+    width: 95%;
+    padding: 0.2em;
+    top: 85%;
+    left: 10%;
+}
+
+.figure:hover {
+    opacity: 0.6;
+}
+
+.figure:hover .figure-caption {
+    top: 81%;
+    left: 5%;
+}
+
+.warning {
+    background-color: var(--darkgrey);
+}
+
+.footer {
+    background-color: var(--darkgrey);
+}
